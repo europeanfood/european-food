@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>European Food - Plats faits maison</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background-color: #d62828;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background-color: #333;
+      text-align: center;
+    }
+    nav a {
+      display: inline-block;
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #444;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .plats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .plat {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .plat img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    a.button {
+      display: inline-block;
+      background: #d62828;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 10px;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    a.button:hover {
+      background: #bb2222;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>European Food</h1>
+    <p>Plats faits maison à [Ta Ville]</p>
+  </header>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#plats">Nos Plats</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="accueil">
+    <h2>Bienvenue chez European Food</h2>
+    <p>Nous préparons chaque jour de délicieux plats faits maison : lasagnes, couscous, hachis parmentier, filet mignon et bien d'autres !
+    Tous nos plats sont réalisés sans produits importés, avec des ingrédients locaux et une touche européenne authentique.</p>
+  </section>
+
+  <section id="plats">
+    <h2>Nos Plats</h2>
+    <div class="plats">
+      <div class="plat">
+        <img src="https://via.placeholder.com/300x200?text=Couscous" alt="Couscous Royal">
+        <h3>Couscous Royal</h3>
+        <p>Un plat généreux aux saveurs du Maghreb.</p>
+      </div>
+      <div class="plat">
+        <img src="https://via.placeholder.com/300x200?text=Lasagnes" alt="Lasagnes bolognaises">
+        <h3>Lasagnes Bolognaises</h3>
+        <p>La recette classique, cuisinée maison avec amour.</p>
+      </div>
+      <div class="plat">
+        <img src="https://via.placeholder.com/300x200?text=Hachis+Parmentier" alt="Hachis Parmentier">
+        <h3>Hachis Parmentier</h3>
+        <p>Un incontournable familial revisité à l’européenne.</p>
+      </div>
+      <div class="plat">
+        <img src="https://via.placeholder.com/300x200?text=Filet+Mignon" alt="Filet Mignon">
+        <h3>Filet Mignon</h3>
+        <p>Accompagné de sa sauce à la moutarde, un vrai régal !</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Infos</h2>
+    <p><strong>Adresse :</strong> [Ton adresse à modifier]</p>
+    <p><strong>Horaires :</strong><br>
+      Lundi – Samedi : 10h à 19h<br>
+      Dimanche : Fermé</p>
+    <p><strong>Téléphone :</strong> [Ton numéro]<br>
+       <strong>WhatsApp :</strong> <a href="https://wa.me/tonnuméro" target="_blank">Discuter maintenant</a><br>
+       <strong>Facebook :</strong> <a href="https://facebook.com/ta-page" target="_blank">Notre page Facebook</a></p>
+    <a class="button" href="https://wa.me/tonnuméro" target="_blank">Commander sur WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 European Food – Tous droits réservés</p>
+  </footer>
+</body>
+</html>
